@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   background-color: aqua;
   background-color: #ffffff;
-  background: url(/img/wave.svg) no-repeat fixed center;
+  background: url(../img/wave.svg) no-repeat fixed center;
   background-size: cover;
   font-family: "Special Elite", cursive;
   text-align: center;
@@ -19,7 +19,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 h1 {
