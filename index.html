@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bukowski Quote Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Bukowski Quotes</h1>
+
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <section class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"></span>
+        <i class="fas fa-quote-right"></i>
+      </section>
+      <!-- Author -->
+      <section class="quote-author">
+        <span id="author"></span>
+      </section>
+      <!-- Buttons -->
+      <section class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-quote">New Quote</button>
+      </section>
+    </div>
+
+    <!-- Loader -->
+    <!-- <div class="loader" id="loader"></div> -->
+    <img src="img/loader.gif" id="loader" alt="" />
+
+    <!-- Script -->
+    <script src="js/quotes.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
