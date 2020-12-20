@@ -9,7 +9,6 @@ body {
   margin: 0;
   padding-bottom: 30px;
   min-height: 100vh;
-  background-color: aqua;
   background-color: #ffffff;
   background: url(../img/wave.svg) no-repeat fixed center;
   background-size: cover;
@@ -49,8 +48,7 @@ h1 {
   font-size: 2rem;
 }
 
-.fa-quote-left,
-.fa-quote-right {
+.fa-quote-left {
   font-size: 3.5rem;
 }
 
@@ -112,8 +110,7 @@ button:active {
   .quote-author {
     font-size: 1.3rem;
   }
-  .fa-quote-left,
-  .fa-quote-right {
+  .fa-quote-left {
     font-size: 2rem;
   }
 }
